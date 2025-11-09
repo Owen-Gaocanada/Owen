@@ -1,0 +1,12 @@
+def rules ():
+    print("Welcome to text based adventure game")
+    print("Here are the rules")
+    print("1. You will need to answer questions and you will start with 9 hp")
+    print("2. You will you will gain 3 hp for answering the question right, but if wrong, you lose 3 hp")
+    print("Having 18 hp will make you win but having 0 will make you lose")
+    return
+
+question_list = [
+    ["what is known as the red planet?", ["mars","Mars"]],
+    ["what color is the Statue of Liberty?",["green", "Green"]],
+    ["What element does the chemical symbol 'Au' represent?", ["gold", "Gold"]]
